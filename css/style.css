@@ -32,13 +32,21 @@ body {
 }
 
 .social-icon {
-    display: flex;
-    width: 100%;
-    max-width: 70px;
-    height: auto;
-    margin-left: 10px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-left: 10x;
     margin-right: 10px;
-    flex-shrink: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tg-icon {
+    background-image: url('/img/png/tg_black_logo_icon_147058.png');
+}
+
+.vk-icon {
+    background-image: url('/img/png/vk_black_logo_icon_147058.png');
 }
 
 .social-icons {
@@ -119,7 +127,8 @@ th, td {
 
 @media (max-width: 600px) {
     .social-icon {
-        max-width: 50px;
+        width: 50px;
+        height: 50px;
     }
 
     h1 {
